@@ -1,0 +1,37 @@
+package StepDefinitions;
+
+import java.io.IOException;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import resources.base;
+
+public class StepDefinition extends base {
+	
+	@Given("^Launch Chrome$")
+	public void launch_Chrome() throws Exception {
+		driver = initDriver();
+	}
+
+	@Given("^Navigate to the \"([^\"]*)\" site$")
+	public void navigate_to_the_site(String arg1) {
+		driver.get(prop.getProperty("url"));
+		driver.manage().window().maximize();
+	}
+
+	@Given("^Click the Login link on Homepage to land on Sign In page$")
+	public void click_the_Login_link_on_Homepage_to_land_on_Sign_In_page() {
+
+	}
+
+	@When("^Enter \"([^\"]*)\" and \"([^\"]*)\" and log in$")
+	public void enter_and_and_log_in(String arg1, String arg2) {
+
+	}
+
+	@Then("^Verify successful login$")
+	public void verify_successful_login() {
+
+	}
+}

@@ -1,0 +1,8 @@
+Feature: App Login
+
+Scenario: Positive Test - Login Validation
+Given Launch Chrome
+And Navigate to the "https://rahulshettyacademy.com/" site
+And Click the Login link on Homepage to land on Sign In page
+When Enter "dmitry@epstein.to" and "musik111" and log in
+#Then Verify successful login

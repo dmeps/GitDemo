@@ -1,0 +1,8 @@
+Feature: App Login
+
+Scenario: Positive Test - Login Validation
+Given Launch Chrome
+And Navigate to the "Academy" site
+And Click the Login link on Homepage to land on Sign In page
+When Enter "username" and "password" and log in
+Then Verify successful login

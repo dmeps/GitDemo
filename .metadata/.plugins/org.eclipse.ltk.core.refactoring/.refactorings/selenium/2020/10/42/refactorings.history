@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;linkText.java&apos; to &apos;Log4j/src&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Destination element: &apos;Log4j/src&apos;&#x0D;&#x0A;- Original element: &apos;basicElements.linkText.java&apos;" description="Copy compilation unit" destination="=Log4j/src" element1="/src&lt;basicElements{linkText.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1602730637817" units="1" version="1.0"/>
+</session>

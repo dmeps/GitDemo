@@ -1,0 +1,7 @@
+Feature: App Login
+
+Scenario: Homepage default login
+Given User is on bank's landing page
+When User logs into app with username and password
+Then Homepage is populated
+And CCs are displayed

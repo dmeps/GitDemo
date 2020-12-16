@@ -1,0 +1,20 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class forgotPassPage {
+
+	public WebDriver driver;
+
+	By header = By.linkText("One more step");
+
+	public forgotPassPage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+	public WebElement getCapt() {
+		return driver.findElement(header);
+	}
+}

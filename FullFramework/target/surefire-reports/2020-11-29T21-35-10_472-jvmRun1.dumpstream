@@ -1,0 +1,15 @@
+# Created at 2020-11-29T21:35:10.914
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '#'.
+
+# Created at 2020-11-29T21:35:10.916
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# There is insufficient memory for the Java Runtime Environment to continue.'.
+
+# Created at 2020-11-29T21:35:10.917
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# Native memory allocation (mmap) failed to map 130023424 bytes for Failed to commit area from 0x0000000084600000 to 0x000000008c200000 of length 130023424.'.
+
+# Created at 2020-11-29T21:35:10.919
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# An error report file with more information is saved as:'.
+
+# Created at 2020-11-29T21:35:10.920
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '# C:\Users\dmeps\eclipse-workspace\FullFramework\hs_err_pid10188.log'.
+

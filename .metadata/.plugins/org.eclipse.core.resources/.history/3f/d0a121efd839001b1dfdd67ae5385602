@@ -1,0 +1,9 @@
+package StepDefinitions;
+
+public class StepDefinition {
+
+	@Given("^User is on bank's landing page$")
+	public void user_on_landing_page() {
+		
+	}
+}

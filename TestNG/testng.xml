@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="test.Listeners" />
+	</listeners>
+	<parameter name="URL" value="http://dmme.net" /> <!-- suite level; test level is used to override or differentiate 
+														from global param -->
+	<test name="Test1" parallel="classes" thread-count="2">
+	<parameter name="URL" value="google.com" />
+	<parameter name="username" value="dmeps" />
+		<classes>
+			<class name="test.Basics" />
+			<class name="test.SecCl" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="test.Logins1">
+				<methods>
+					<exclude name="Mobile.*" /> <!-- regex for filenames starting with "Mobile" -->
+				</methods>
+			</class>
+			<class name="test.Logins2">
+				<methods>
+					<include name="LoginAPI" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
