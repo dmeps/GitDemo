@@ -1,0 +1,8 @@
+23:12:22.897 [main] INFO  resources.base - Driver initialized
+23:12:27.061 [main] INFO  resources.base - Navigated to Homepage
+23:12:29.302 [main] INFO  resources.base - Successfully validated header
+23:12:59.054 [main] INFO  resources.base - Driver initialized
+23:13:03.676 [main] INFO  resources.base - Navigated to Homepage
+23:13:05.871 [main] INFO  resources.base - Successfully validated text
+23:13:05.904 [main] INFO  resources.base - Successfully validated header
+22:40:07.250 [main] INFO  resources.base - Existing user

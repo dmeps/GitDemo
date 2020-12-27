@@ -1,0 +1,6 @@
+22:33:12.188 [TestNG-tests-3] INFO  resources.base - Navigated to Homepage
+22:33:13.650 [TestNG-tests-2] INFO  resources.base - Navigated to Homepage
+22:33:14.415 [TestNG-tests-3] INFO  resources.base - Successfully validated nav bar
+22:33:19.448 [TestNG-tests-1] INFO  resources.base - Existing user
+22:33:24.889 [TestNG-tests-1] INFO  resources.base - Non-existing user
+22:33:42.661 [TestNG-tests-2] INFO  resources.base - Successfully validated header

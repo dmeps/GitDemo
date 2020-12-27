@@ -1,0 +1,35 @@
+package tables;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SumRowsData {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\dmeps\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
+		
+		JavascriptExecutor jse = (JavascriptExecutor)driver;		
+		jse.executeScript("window.scrollBy(0, 500)"); // page scroll
+		jse.executeScript("document.querySelector('.tableFixHead').scrollTop = 500"); //table scroll
+		
+		List<WebElement> values = driver.findElements(By.cssSelector(".tableFixHead td:nth-child(4)"));
+		int sum = 0;
+		for(int a = 0; a < values.size(); a++) {
+			sum += Integer.parseInt(values.get(a).getText());
+		}
+		
+		 System.out.println(driver.findElement(By.className("totalAmount")).getText().split(":")[1].trim());
+		
+		driver.quit();
+	}
+
+}

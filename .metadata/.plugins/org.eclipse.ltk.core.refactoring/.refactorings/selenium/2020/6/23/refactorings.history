@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;e2e.E2E&apos; to &apos;SpiceJet&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original element: &apos;e2e.E2E&apos;&#x0D;&#x0A;- Renamed element: &apos;e2e.SpiceJet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;E2E&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;e2e{E2E.java[E2E" matchStrategy="1" name="SpiceJet" qualified="false" references="true" similarDeclarations="false" stamp="1590978102237" textual="false" version="1.0"/>
+</session>

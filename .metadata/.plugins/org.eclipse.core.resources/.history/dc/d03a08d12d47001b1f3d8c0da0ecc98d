@@ -1,0 +1,14 @@
+package basicElements;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class down {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\dmeps\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://lotuyonoesunadesgraciarecargado.blogspot.com/2020/12/spooky-tooth-island-years-antology-1967.html");
+	}
+
+}
