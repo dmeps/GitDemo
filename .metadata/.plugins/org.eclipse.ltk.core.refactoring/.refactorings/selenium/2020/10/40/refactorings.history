@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;JavaStreams.CellValue&apos; to &apos;CellValue_Pagination&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Original element: &apos;JavaStreams.CellValue&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaStreams.CellValue_Pagination&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CellValue&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;JavaStreams{CellValue.java[CellValue" matchStrategy="1" name="CellValue_Pagination" qualified="false" references="true" similarDeclarations="false" stamp="1601520165748" textual="false" version="1.0"/>
-</session>

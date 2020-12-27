@@ -1,9 +1,0 @@
-22:46:11.763 [main] INFO  resources.base - Existing user
-22:47:11.641 [main] INFO  resources.base - Existing user
-22:48:28.251 [main] INFO  resources.base - Existing user
-23:08:32.793 [main] INFO  resources.base - Existing user
-23:08:38.634 [main] INFO  resources.base - Non-existing user
-23:12:15.504 [main] INFO  resources.base - Existing user
-23:12:31.305 [main] INFO  resources.base - Non-existing user
-22:33:07.536 [TestNG-tests-3] INFO  resources.base - Driver initialized
-22:33:07.536 [TestNG-tests-2] INFO  resources.base - Driver initialized
